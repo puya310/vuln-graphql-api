@@ -1,0 +1,14 @@
+flask
+flask-cors
+torch-2.0.0+cpu-cp310-cp310-linux_x86_64.whl
+easyocr
+opencv-python-headless
+pypdfium2
+sentence-transformers
+boto3
+gunicorn
+gevent>=23.9.0
+setuptools>=65.5.1
+Pillow>=10.2.0 # not directly required, pinned by Snyk to avoid a vulnerability
+numpy>=1.26.0 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=3.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
